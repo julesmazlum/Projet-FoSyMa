@@ -41,15 +41,18 @@ Le système repose sur trois types d'agents spécialisés, utilisant des machine
 ### 1. `MyExploreAgent`
 * **Rôle :** Cartographie rapide de l'environnement.
 * **Comportement :** Explore les nœuds inconnus, observe le voisinage et partage sa carte avec les alliés rencontrés.
+<img width="653" height="476" alt="Capture d’écran 2025-12-06 à 15 19 05" src="https://github.com/user-attachments/assets/e1c6fe6c-ff05-412e-95d9-5680d8e57d1e" />
 
 ### 2. `MyCollectAgent`
 * **Rôle :** Récupération des trésors et transport vers le Tanker.
 * **Compétences :** Possède des attributs de *Lockpicking* (ouverture de coffres) et de *Strength* (portage).
 * **Comportement :** Analyse les trésors accessibles selon ses compétences, calcule le chemin optimal pour la collecte et vide son sac auprès du Tanker.
+<img width="653" height="476" alt="Capture d’écran 2025-12-06 à 15 19 19" src="https://github.com/user-attachments/assets/479ee441-b891-4c31-a07c-41a5bc58b515" />
 
 ### 3. `MyTankerAgent` (Silo)
 * **Rôle :** Stockage illimité des ressources.
 * **Comportement :** Sert de point de déchargement mobile. Il gère également les situations d'impasse en signalant sa position aux autres agents pour éviter qu'ils ne se bloquent.
+<img width="653" height="476" alt="Capture d’écran 2025-12-06 à 15 19 28" src="https://github.com/user-attachments/assets/1a0e5287-bc89-4d96-9c28-b177f5f4e31b" />
 
 ---
 
